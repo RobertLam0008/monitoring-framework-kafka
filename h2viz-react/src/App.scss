@@ -1,0 +1,57 @@
+@import '@material/react-tab-bar/index.scss';
+@import '@material/react-tab-scroller/index.scss';
+@import '@material/react-tab/index.scss';
+@import '@material/react-tab-indicator/index.scss';
+@import '@material/react-text-field/index.scss';
+@import '@material/react-list/index.scss';
+@import '@material/react-menu-surface/index.scss';
+@import '@material/react-menu/index.scss';
+@import '@material/react-select/index.scss';
+@import '@material/react-button/index.scss';
+@import "@syncfusion/ej2-base/styles/material.css";
+@import "@syncfusion/ej2-react-navigations/styles/material.css";
+@import "@syncfusion/ej2-react-inputs/styles/material.css";
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Chart-container {
+  padding: 20px;
+}
